@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    justify-content: end;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: "#000000";
+    margin-left: 100px;
+    margin-bottom: 600px;
+  }
+  
+  .welcome-message h1 {
+    font-size: 24px;
+    margin: 0;
+    padding-left: 10;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 10;
+  }
+  
+  .search-bar {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  .date {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .invite-btn {
+    background-color: #ff5a5f;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
